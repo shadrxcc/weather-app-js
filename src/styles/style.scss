@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to bottom, #70B1CE 100%, #004E71 100%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.search,
+.preference {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#search-bar {
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+  width: 400px;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  text-align: center;
+}
+
+.deg {
+  font-size: 86px;
+}

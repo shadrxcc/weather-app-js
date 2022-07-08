@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Weather Today</title>
 </head>
 <body>
-    <script src="main.js"></script>
+    <div>
+        <h1 class="title">Weather Today</h1>
+    </div>
+
+    <div class="search">
+        <input type="text" name="search" id="search-bar" placeholder="Search for location">
+    </div>
+
+    <div>
+        <form action="/action_page.php" class="preference">
+            <input type="radio" id="celcius" name="celcius" value="C">
+            <label for="C" class="check">Celcius</label>
+            <input type="radio" id="fahrenheit" name="fahrenheit" value="F">
+            <label for="F">Fahrenheit</label>
+        </form> 
+    </div>
+
+    <div>
+        <h3>Weather in Lagos</h3>
+        <div class="temp">
+            <div><h1 class="deg">24.16°C</h1></div>
+            <div><img src="" alt="" srcset=""></div>
+        </div>
+        <div class="block">
+            <p class="description">Cloudy</p>
+            <p class="humidity">Humidity: 60%</p>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
 </body>
 </html>
