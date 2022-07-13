@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <title>Weather Today</title>
 </head>
+
 <body>
     <div>
         <h1 class="title">Weather Today</h1>
@@ -26,20 +28,23 @@
             <label for="C" class="check">Celcius</label>
             <input type="radio" id="fahrenheit" name="fahrenheit" value="F">
             <label for="F">Fahrenheit</label>
-        </form> 
+        </form>
     </div>
 
-    <div>
-        <h3 id="city">Weather in Lagos</h3>
+    <div class="frame">
+        <h3 id="city"></h3>
         <div class="temp">
-            <div><h1 class="deg">24.16°C</h1></div>
-            <div class="img"><img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icon" srcset=""></div>
+            <div>
+                <h1 class="deg"></h1>
+            </div>
+            <div class="img"><img src="" alt="" id="logo" class="icon" srcset=""></div>
         </div>
         <div class="block">
-            <div id="description">Cloudy</div>
-            <p class="humidity">Humidity: 60%</p>
+            <div id="description"></div>
+            <p class="humidity"></p>
         </div>
     </div>
     <script src="bundle.js"></script>
 </body>
+
 </html>
