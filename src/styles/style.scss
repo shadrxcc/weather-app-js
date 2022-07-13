@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #70B1CE 100%, #004E71 100%);
+  background: linear-gradient(to bottom, #70b1ce 100%, #004e71 100%);
   font-family: 'Poppins', sans-serif;
   color: white;
   margin-top: 100px;
@@ -19,7 +19,7 @@ body {
 
 #search-bar {
   border-radius: 5px;
-  border: 0px;
+  border: 0;
   padding: 15px;
   width: 400px;
 }
@@ -53,7 +53,7 @@ h3 {
 
 button {
   background-color: white;
-  border: 0px;
+  border: 0;
   border-radius: 5px;
   margin-left: 5px;
   width: 45px;
