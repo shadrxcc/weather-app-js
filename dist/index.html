@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -17,8 +16,8 @@
     </div>
 
     <div class="search">
-        <input type="text" name="search" id="search-bar" placeholder="Search for location">
-        <button><span class="iconify" data-icon="ant-design:search-outlined"></span></button>
+        <input type="text" name="search" class="inputValue" id="search-bar" placeholder="Search for location">
+        <button class="button" id="btn"><span class="iconify" data-icon="ant-design:search-outlined"></span></button>
     </div>
 
     <div>
@@ -31,13 +30,13 @@
     </div>
 
     <div>
-        <h3>Weather in Lagos</h3>
+        <h3 id="city">Weather in Lagos</h3>
         <div class="temp">
             <div><h1 class="deg">24.16°C</h1></div>
-            <div><img src="" alt="" srcset=""></div>
+            <div class="img"><img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="icon" srcset=""></div>
         </div>
         <div class="block">
-            <p class="description">Cloudy</p>
+            <div id="description">Cloudy</div>
             <p class="humidity">Humidity: 60%</p>
         </div>
     </div>

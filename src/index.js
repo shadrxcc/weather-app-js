@@ -1,4 +1,10 @@
 import './styles/style.scss';
-import './bootstrap'
+import { getWeather } from './weather';
 
-console.log("hello world");
+const input = document.getElementById('search-bar');
+const button = document.getElementById('btn');
+
+
+button.addEventListener('click', () => getWeather(input.value))
+
+;
