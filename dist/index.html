@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <title>Weather Today</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Weather Today</h1>
+    </div>
+
+    <div class="search">
+        <input type="text" name="search" class="inputValue" id="search-bar" placeholder="Search for location">
+        <button class="button" id="btn"><span class="iconify" data-icon="ant-design:search-outlined"></span></button>
+    </div>
+
+    <div>
+        <form action="/action_page.php" class="preference">
+            <input type="radio" id="celcius" name="celcius" value="C">
+            <label for="C" class="check">Celcius</label>
+            <input type="radio" id="fahrenheit" name="fahrenheit" value="F">
+            <label for="F">Fahrenheit</label>
+        </form>
+    </div>
+
+    <div class="frame">
+        <h3 id="city"></h3>
+        <div class="temp">
+            <div>
+                <h1 class="deg"></h1>
+            </div>
+            <div class="img"><img src="" alt="" id="logo" class="icon" srcset=""></div>
+        </div>
+        <div class="block">
+            <div id="description"></div>
+            <p class="humidity"></p>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
